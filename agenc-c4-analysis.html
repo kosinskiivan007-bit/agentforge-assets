@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AgenC: a live agent marketplace under $1M — Mycelium candidate research</title>
+<meta name="description" content="Research note for the Mycelium Strategy: AgenC ($AgenC), a live Solana agent marketplace under $1M.">
+<style>
+:root{color-scheme:light dark;--ink:#1a1a1a;--muted:#555;--bg:#fff;--accent:#0b6e4f;--card:#f6f8f7}
+@media(prefers-color-scheme:dark){:root{--ink:#e8e8e8;--muted:#aaa;--bg:#121212;--accent:#4fd1a5;--card:#1e1e1e}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:18px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+main{max-width:860px;margin:0 auto;padding:48px 22px 80px}
+h1{font-size:2.1rem;line-height:1.15;margin:0 0 .4em}
+h2{font-size:1.45rem;margin:2em 0 .5em;border-bottom:1px solid #8883;padding-bottom:.2em}
+h3{font-size:1.15rem;margin:1.6em 0 .4em}
+img{max-width:100%;height:auto;border-radius:12px;display:block;margin:1.2em auto}
+a{color:var(--accent)}
+table{border-collapse:collapse;width:100%;margin:1.2em 0;font-size:.92rem;display:block;overflow-x:auto}
+th,td{border:1px solid #8884;padding:.5em .6em;text-align:left;vertical-align:top}
+th{background:var(--card)}
+blockquote{border-left:4px solid var(--accent);margin:1.2em 0;padding:.2em 1em;color:var(--muted)}
+code{background:var(--card);padding:.1em .3em;border-radius:4px;font-size:.9em}
+hr{border:0;border-top:1px solid #8884;margin:2em 0}
+.meta{color:var(--muted);font-size:.9rem;margin-bottom:2em}
+</style></head>
+<body><main>
+<div class="meta">Public mirror of a research note prepared for the Mycelium Finance “Next Solana Gem” bounty. Research snapshot: 2026-10-26 00:25 UTC. Not financial advice.</div>
+<h1>AgenC: a live agent marketplace under $1M — Mycelium candidate research</h1>
+<p><img alt="AgenC candidate research" src="https://kosinskiivan007-bit.github.io/agentforge-assets/agenc-c4-image.png" /></p>
+<p>The Mycelium Strategy connects selected Solana projects through shared liquidity pools; more than 84% of the tradable $MYC supply is already at work in those pools, and trading fees help fund new connections. I screened sub-$1M Solana tokens for a product people can use today, real volume and liquidity, at least 60 days of trading, recent activity, and no existing place in the Mycelium basket. One project cleared every filter: <strong>AgenC ($AgenC)</strong>.</p>
+<h2>Selection filters</h2>
+<ul>
+<li><strong>On Solana:</strong> yes. Mint <code>5yC9BM8KUsJTPbWPLfA2N8qH1s9V8DQ3Vcw1G6Jdpump</code>.</li>
+<li><strong>Circulating market cap below $1M:</strong> DexScreener showed <strong>$748,080</strong> at 2026-10-26 00:25 UTC. Market cap and FDV were identical because supply is 999.93M; this is effectively a fully diluted figure.</li>
+<li><strong>Working product usable today:</strong> <code>agenc.ag</code> has a live task board, service catalog, explorer, and public stats. The stats API showed <strong>564 settled tasks, 256 registered agents, 85 visible services</strong>, and 2.462 SOL in escrow.</li>
+<li><strong>Not a meme token:</strong> the token launched on pump.fun, but the project ships a protocol, SDK, CLI, and live marketplace. Playful branding does not erase a substantive product.</li>
+<li><strong>Trading for at least 60 days:</strong> the main PumpSwap pair was created 2026-02-24, about <strong>243 days</strong> before this snapshot.</li>
+<li><strong>At least $10,000 in 24-hour volume:</strong> <strong>$36,591</strong> on DexScreener.</li>
+<li><strong>At least $50,000 in DEX liquidity:</strong> <strong>$135,946</strong> across the PumpSwap and Meteora pools.</li>
+<li><strong>Recent update, development, or team communication within 30 days:</strong> the official X account posted on 2026-10-24 and 2026-10-25, including a substantive note on sandboxing commands the agent runtime executes; the site showed Core <strong>0.19.13</strong>.</li>
+<li><strong>Not already in the Mycelium Strategy:</strong> AgenC is absent from the Mycelium allocation API read at 2026-10-26 00:25 UTC.</li>
+<li><strong>Not $SOL, $USDC, $USDT, $MYC, or $ESF:</strong> yes.</li>
+</ul>
+<h2>Comparison</h2>
+<table>
+<thead>
+<tr>
+<th>Project</th>
+<th>What it does</th>
+<th>Chain</th>
+<th style="text-align: right;">MCap</th>
+<th style="text-align: right;">24h volume</th>
+<th style="text-align: right;">DEX liquidity</th>
+<th style="text-align: right;">Pair age</th>
+<th style="text-align: right;">Top-10 ex-LP</th>
+<th>Mint / freeze</th>
+<th>Mycelium</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>AgenC ($AgenC)</td>
+<td>Live agent task marketplace, protocol and SDK</td>
+<td>Solana</td>
+<td style="text-align: right;">$748K</td>
+<td style="text-align: right;">$36.6K</td>
+<td style="text-align: right;">$135.9K</td>
+<td style="text-align: right;">243d</td>
+<td style="text-align: right;">54.47%</td>
+<td>revoked / revoked</td>
+<td>not included</td>
+</tr>
+</tbody>
+</table>
+<h2>What AgenC is</h2>
+<p>AgenC is a protocol and SDK for launching agent marketplaces. <code>agenc.ag</code> is the live reference marketplace: a buyer posts a one-off task or hires a standing service, SOL is escrowed on-chain, an AI agent claims and delivers the work, and the Solana program settles the split. The documented fee model is a 5% protocol fee with a four-leg split: the worker gets at least 60%, the protocol 5%, the marketplace operator up to 20%, and the referrer up to 20%. The site serves agent builders, agent operators, and buyers who need marketing, research, copywriting, finance, or media work.</p>
+<p><strong>Facts:</strong> the product is not a mock. The public stats endpoint reported 564 settled tasks, 256 registered agents, 85 visible services, 39 completed service hires, 13 unique completed buyers, and a 69.2% repeat-purchase rate among those buyers. The sample is small, but the direction is real. The project also won a pump.fun Build in Public hackathon and publishes a public SDK and CLI.</p>
+<p><strong>My interpretation:</strong> AgenC is the strongest sub-$1M candidate I found because the marketplace has actual settlement history and a clear buyer/agent loop. The product is the reason to pay attention.</p>
+<h2>The token is the weak link</h2>
+<p>I found no official page that gives $AgenC a protocol role. The documented fees are paid in SOL, not in $AgenC. The project's February 2026 X post said 375M AgenC (37.5% of supply) was locked on Streamflow, but the on-chain picture is less clean: the largest account is a plain system wallet holding <strong>38.15%</strong>, and a separate Streamflow Vault holds <strong>7.29%</strong>. I could not map the 375M statement to a specific vesting contract, and I found no published unlock schedule. That is a material unresolved question, not a reason to pretend the token has utility it has not documented.</p>
+<p>Holder concentration is the second issue. After excluding the verified PumpSwap AMM base vault <code>D8RYtb57B3UmEJEGmQ4DPP7SBpGVkzaxQPLixyFLHjB4</code> (8.47%) and the Meteora DLMM pool <code>4vcJfHLqe6Erj2huazg2qz2dMp47pcSiyL3iWQkHPRLX</code> (0.80%), the ten largest remaining accounts hold <strong>54.47%</strong> of supply; the calculation source is the Rugcheck top-holders report. The 38.15% wallet is unlabeled; the 7.29% Streamflow Vault is identifiable as a locker. There was no burn account in the top 20. Rugcheck scored the token 37/100 with a single-holder warning. Mint and freeze authorities are both revoked, and the main PumpSwap LP is 100% locked; the Meteora DLMM positions are NFT-based, so Rugcheck reports 0% locked and that portion is unverifiable from the report.</p>
+<h2>Mycelium fit</h2>
+<p><strong>Collaboration is the best fit.</strong> Mycelium could post research, community, or bounty work through AgenC and use its escrow and settlement rail, or run a small pilot that brings Mycelium's community into the agent marketplace. That is a concrete integration, not an existing partnership.</p>
+<p><strong>A MYC/AgenC liquidity pair is possible but secondary.</strong> AgenC already has most of its liquidity in PumpSwap and Meteora; another pair would fragment it, and the token has no documented fee capture to make the pair compelling.</p>
+<p><strong>A holding thesis is weak today.</strong> The product is real, but the token does not yet have a documented link to protocol revenue. I would not recommend a treasury allocation until the 38.15% wallet and any fee-sharing or unlock plan are clarified. A collaboration pilot is the lower-risk way to build a relationship.</p>
+<p><strong>One promising aspect:</strong> a live marketplace with repeat buyers and on-chain settlement is rare under $1M. <strong>One meaningful risk:</strong> a single unlabeled wallet holds 38.15% and the token's utility is undocumented, so product success may not accrue to $AgenC holders.</p>
+<p>Discuss these findings and the Mycelium Strategy: https://discord.gg/5M7FsQcGq</p>
+<hr />
+<p><em>AI-created for a @myceliumfinance bounty.</em></p>
+<p><strong>Sources (observed 2026-10-26 00:25 UTC unless noted):</strong>
+- AgenC official site: https://agenc.ag/
+- AgenC docs and fee model: https://agenc.ag/docs and https://agenc.ag/docs/fees
+- AgenC public stats: https://api.agenc.ag/api/stats
+- AgenC task board: https://agenc.ag/tasks
+- AgenC GitHub: https://github.com/tetsuo-ai/AgenC
+- AgenC official X: https://x.com/a_g_e_n_c
+- Recent activity: https://x.com/a_g_e_n_c/status/2114309249052348710 (2026-10-25), https://x.com/a_g_e_n_c/status/2114446196605599876 (2026-10-25), https://x.com/a_g_e_n_c/status/2113901277847711892 (2026-10-24)
+- Token lock statement: https://x.com/tetsuoai/status/2027173417406099461 (2026-02-27)
+- DexScreener main pair: https://dexscreener.com/solana/bumh6yebpbvah4by4otgjuvzq9cvh6dqpgrzvxfdmwc1
+- Rugcheck report: https://rugcheck.xyz/tokens/5yC9BM8KUsJTPbWPLfA2N8qH1s9V8DQ3Vcw1G6Jdpump
+- Solscan token page: https://solscan.io/token/5yC9BM8KUsJTPbWPLfA2N8qH1s9V8DQ3Vcw1G6Jdpump
+- Mycelium allocations: https://www.myceliumfinance.com/allocations
+- Mycelium: https://www.myceliumfinance.com</p>
+</main></body></html>
