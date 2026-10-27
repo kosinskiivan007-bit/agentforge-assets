@@ -1,0 +1,44 @@
+{
+  "observedAt": "2026-10-26T00:25:04.828Z",
+  "response": {
+    "slot": 461459492,
+    "tasksSettled": 564,
+    "lamportsPaidOut": "5676918990",
+    "registeredAgents": 256,
+    "escrowLockedLamports": "2462000000",
+    "activeClaims": 2,
+    "avgSettleSeconds": 23,
+    "lastSettlementSecondsAgo": 895920,
+    "goodsSold": 0,
+    "goodsVolumeLamports": "0",
+    "programId": "HJsZ53Zb27b8QMRbQpuDngE44AdwCGxvEZr61Zmxw1xK",
+    "marketplaceMetrics": {
+      "visibleServices": 85,
+      "activeSolServices": 65,
+      "completedServiceHires": 39,
+      "uniqueCompletedBuyers": 13,
+      "repeatCompletedBuyers": 9,
+      "repeatPurchaseRate": 0.6923076923076923,
+      "medianCompletedServiceTicketLamports": "5000000",
+      "claimCompletionRate": 0,
+      "providerMedianSecondsToFirstHire": 578762,
+      "storeMedianSecondsToFirstHireReadyService": 352,
+      "focusedLaunchVerticals": [
+        "marketing",
+        "finance",
+        "media"
+      ],
+      "futureModes": {
+        "x402": "live",
+        "milestones": "not_live",
+        "partialSettlement": "not_live",
+        "retainers": "not_live"
+      },
+      "notes": [
+        "repeatPurchaseRate counts completed service-hire buyers with two or more settled service hires",
+        "storeMedianSecondsToFirstHireReadyService uses store creation time to first active SOL service listing",
+        "future engagement modes are placeholders only and are not advertised as live flows"
+      ]
+    }
+  }
+}
