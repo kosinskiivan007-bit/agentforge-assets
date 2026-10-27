@@ -1,0 +1,1054 @@
+{
+  "observedAt": "2026-10-26T00:25:04.828Z",
+  "mint": "5yC9BM8KUsJTPbWPLfA2N8qH1s9V8DQ3Vcw1G6Jdpump",
+  "response": {
+    "schemaVersion": "1.0.0",
+    "pairs": [
+      {
+        "chainId": "solana",
+        "dexId": "pumpswap",
+        "url": "https://dexscreener.com/solana/bumh6yebpbvah4by4otgjuvzq9cvh6dqpgrzvxfdmwc1",
+        "pairAddress": "BUMh6YebpBvAh4by4oTGJUvzQ9CvH6dqPgrZvXFDMwC1",
+        "baseToken": {
+          "address": "5yC9BM8KUsJTPbWPLfA2N8qH1s9V8DQ3Vcw1G6Jdpump",
+          "name": "AgenC",
+          "symbol": "AgenC"
+        },
+        "quoteToken": {
+          "address": "So11111111111111111111111111111111111111112",
+          "name": "Wrapped SOL",
+          "symbol": "SOL"
+        },
+        "priceNative": "0.000007389",
+        "priceUsd": "0.0007481",
+        "txns": {
+          "m5": {
+            "buys": 0,
+            "sells": 1
+          },
+          "h1": {
+            "buys": 7,
+            "sells": 4
+          },
+          "h6": {
+            "buys": 69,
+            "sells": 43
+          },
+          "h24": {
+            "buys": 229,
+            "sells": 203
+          }
+        },
+        "volume": {
+          "h24": 36591.26,
+          "h6": 8306.72,
+          "h1": 1020.11,
+          "m5": 0.6
+        },
+        "priceChange": {
+          "m5": -1.98,
+          "h1": 2.2,
+          "h6": -2.18,
+          "h24": -12.12
+        },
+        "liquidity": {
+          "usd": 127333.43,
+          "base": 84673099,
+          "quote": 632.0311
+        },
+        "fdv": 748080,
+        "marketCap": 748080,
+        "pairCreatedAt": 1771976989000,
+        "info": {
+          "imageUrl": "https://cdn.dexscreener.com/cms/images/CosLgfKcR4zLMl2Q?width=800&height=800&quality=95&format=auto",
+          "header": "https://cdn.dexscreener.com/cms/images/KVBwPqgrjh_PnaYB?width=1500&height=500&quality=95&format=auto",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/5yC9BM8KUsJTPbWPLfA2N8qH1s9V8DQ3Vcw1G6Jdpump?timestamp=1792974300000",
+          "websites": [
+            {
+              "url": "https://agenc.tech/",
+              "label": "Website"
+            },
+            {
+              "url": "https://docs.agenc.tech/docs/",
+              "label": "Docs"
+            }
+          ],
+          "socials": [
+            {
+              "url": "https://x.com/a_g_e_n_c",
+              "type": "twitter"
+            },
+            {
+              "url": "https://t.me/agenc_community",
+              "type": "telegram"
+            }
+          ]
+        }
+      },
+      {
+        "chainId": "solana",
+        "dexId": "meteora",
+        "url": "https://dexscreener.com/solana/9wauhhef46dws4mym3u8yq8cvm1mk9ztrgn8wctlwolx",
+        "pairAddress": "9WAuHHeF46Dws4Mym3u8yq8CVm1MK9ZTrgn8WCTLwoLx",
+        "labels": [
+          "DLMM"
+        ],
+        "baseToken": {
+          "address": "5yC9BM8KUsJTPbWPLfA2N8qH1s9V8DQ3Vcw1G6Jdpump",
+          "name": "AgenC",
+          "symbol": "AgenC"
+        },
+        "quoteToken": {
+          "address": "So11111111111111111111111111111111111111112",
+          "name": "Wrapped SOL",
+          "symbol": "SOL"
+        },
+        "priceNative": "0.000007511",
+        "priceUsd": "0.0007588",
+        "txns": {
+          "m5": {
+            "buys": 0,
+            "sells": 0
+          },
+          "h1": {
+            "buys": 1,
+            "sells": 0
+          },
+          "h6": {
+            "buys": 15,
+            "sells": 3
+          },
+          "h24": {
+            "buys": 30,
+            "sells": 93
+          }
+        },
+        "volume": {
+          "h24": 1970.65,
+          "h6": 560.74,
+          "h1": 87.94,
+          "m5": 0
+        },
+        "priceChange": {
+          "h1": 3.69,
+          "h6": -1.25,
+          "h24": -10.27
+        },
+        "liquidity": {
+          "usd": 7606.47,
+          "base": 8026435,
+          "quote": 14.999
+        },
+        "fdv": 758882,
+        "marketCap": 758882,
+        "pairCreatedAt": 1772154136000,
+        "info": {
+          "imageUrl": "https://cdn.dexscreener.com/cms/images/CosLgfKcR4zLMl2Q?width=800&height=800&quality=95&format=auto",
+          "header": "https://cdn.dexscreener.com/cms/images/KVBwPqgrjh_PnaYB?width=1500&height=500&quality=95&format=auto",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/5yC9BM8KUsJTPbWPLfA2N8qH1s9V8DQ3Vcw1G6Jdpump?timestamp=1792974300000",
+          "websites": [
+            {
+              "url": "https://agenc.tech/",
+              "label": "Website"
+            },
+            {
+              "url": "https://docs.agenc.tech/docs/",
+              "label": "Docs"
+            }
+          ],
+          "socials": [
+            {
+              "url": "https://x.com/a_g_e_n_c",
+              "type": "twitter"
+            },
+            {
+              "url": "https://t.me/agenc_community",
+              "type": "telegram"
+            }
+          ]
+        }
+      },
+      {
+        "chainId": "solana",
+        "dexId": "meteora",
+        "url": "https://dexscreener.com/solana/b2kwqyssjsjvivezax59bibq6hd9crchvm4mzxc34gke",
+        "pairAddress": "B2KWqySsJsJvivezAX59BiBQ6hd9cRcHvM4mzxC34GKe",
+        "labels": [
+          "DLMM"
+        ],
+        "baseToken": {
+          "address": "5yC9BM8KUsJTPbWPLfA2N8qH1s9V8DQ3Vcw1G6Jdpump",
+          "name": "AgenC",
+          "symbol": "AgenC"
+        },
+        "quoteToken": {
+          "address": "So11111111111111111111111111111111111111112",
+          "name": "Wrapped SOL",
+          "symbol": "SOL"
+        },
+        "priceNative": "0.000007460",
+        "priceUsd": "0.0007566",
+        "txns": {
+          "m5": {
+            "buys": 0,
+            "sells": 0
+          },
+          "h1": {
+            "buys": 5,
+            "sells": 1
+          },
+          "h6": {
+            "buys": 11,
+            "sells": 6
+          },
+          "h24": {
+            "buys": 40,
+            "sells": 55
+          }
+        },
+        "volume": {
+          "h24": 287.15,
+          "h6": 61.64,
+          "h1": 21.57,
+          "m5": 0
+        },
+        "priceChange": {
+          "h1": 4.45,
+          "h6": 0.31,
+          "h24": -12.77
+        },
+        "liquidity": {
+          "usd": 310.71,
+          "base": 129052,
+          "quote": 2.1009
+        },
+        "fdv": 756622,
+        "marketCap": 756622,
+        "pairCreatedAt": 1772154136000,
+        "info": {
+          "imageUrl": "https://cdn.dexscreener.com/cms/images/CosLgfKcR4zLMl2Q?width=800&height=800&quality=95&format=auto",
+          "header": "https://cdn.dexscreener.com/cms/images/KVBwPqgrjh_PnaYB?width=1500&height=500&quality=95&format=auto",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/5yC9BM8KUsJTPbWPLfA2N8qH1s9V8DQ3Vcw1G6Jdpump?timestamp=1792974300000",
+          "websites": [
+            {
+              "url": "https://agenc.tech/",
+              "label": "Website"
+            },
+            {
+              "url": "https://docs.agenc.tech/docs/",
+              "label": "Docs"
+            }
+          ],
+          "socials": [
+            {
+              "url": "https://x.com/a_g_e_n_c",
+              "type": "twitter"
+            },
+            {
+              "url": "https://t.me/agenc_community",
+              "type": "telegram"
+            }
+          ]
+        }
+      },
+      {
+        "chainId": "solana",
+        "dexId": "orca",
+        "url": "https://dexscreener.com/solana/h2d2bvjiwylbsvqxdibzykq83mdncfaztuvmqymczfpb",
+        "pairAddress": "H2D2BvjiwYLBsvqxdiBZykq83mDNcFAztUvmQYMCZFpb",
+        "labels": [
+          "wp"
+        ],
+        "baseToken": {
+          "address": "5yC9BM8KUsJTPbWPLfA2N8qH1s9V8DQ3Vcw1G6Jdpump",
+          "name": "AgenC",
+          "symbol": "AgenC"
+        },
+        "quoteToken": {
+          "address": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "name": "USD Coin",
+          "symbol": "USDC"
+        },
+        "priceNative": "0.0007198",
+        "priceUsd": "0.0007198",
+        "txns": {
+          "m5": {
+            "buys": 0,
+            "sells": 0
+          },
+          "h1": {
+            "buys": 0,
+            "sells": 0
+          },
+          "h6": {
+            "buys": 1,
+            "sells": 6
+          },
+          "h24": {
+            "buys": 12,
+            "sells": 39
+          }
+        },
+        "volume": {
+          "h24": 61.64,
+          "h6": 8,
+          "h1": 0,
+          "m5": 0
+        },
+        "priceChange": {
+          "h6": -4.74,
+          "h24": -16.47
+        },
+        "liquidity": {
+          "usd": 319.17,
+          "base": 293495,
+          "quote": 107.9054
+        },
+        "fdv": 719833,
+        "marketCap": 719833,
+        "pairCreatedAt": 1788818266000,
+        "info": {
+          "imageUrl": "https://cdn.dexscreener.com/cms/images/CosLgfKcR4zLMl2Q?width=800&height=800&quality=95&format=auto",
+          "header": "https://cdn.dexscreener.com/cms/images/KVBwPqgrjh_PnaYB?width=1500&height=500&quality=95&format=auto",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/5yC9BM8KUsJTPbWPLfA2N8qH1s9V8DQ3Vcw1G6Jdpump?timestamp=1792974300000",
+          "websites": [
+            {
+              "url": "https://agenc.tech/",
+              "label": "Website"
+            },
+            {
+              "url": "https://docs.agenc.tech/docs/",
+              "label": "Docs"
+            }
+          ],
+          "socials": [
+            {
+              "url": "https://x.com/a_g_e_n_c",
+              "type": "twitter"
+            },
+            {
+              "url": "https://t.me/agenc_community",
+              "type": "telegram"
+            }
+          ]
+        }
+      },
+      {
+        "chainId": "solana",
+        "dexId": "orca",
+        "url": "https://dexscreener.com/solana/5mdnenyhehpdqlvs3acrui5x9vsrglhqkkjw4g8adysx",
+        "pairAddress": "5MdnENYHehpDQLVS3aCRUi5x9VSrGLhqkkJw4G8aDYSx",
+        "labels": [
+          "wp"
+        ],
+        "baseToken": {
+          "address": "5yC9BM8KUsJTPbWPLfA2N8qH1s9V8DQ3Vcw1G6Jdpump",
+          "name": "AgenC",
+          "symbol": "AgenC"
+        },
+        "quoteToken": {
+          "address": "So11111111111111111111111111111111111111112",
+          "name": "Wrapped SOL",
+          "symbol": "SOL"
+        },
+        "priceNative": "0.000007263",
+        "priceUsd": "0.0007372",
+        "txns": {
+          "m5": {
+            "buys": 0,
+            "sells": 0
+          },
+          "h1": {
+            "buys": 0,
+            "sells": 0
+          },
+          "h6": {
+            "buys": 3,
+            "sells": 4
+          },
+          "h24": {
+            "buys": 16,
+            "sells": 29
+          }
+        },
+        "volume": {
+          "h24": 32.7,
+          "h6": 4.75,
+          "h1": 0,
+          "m5": 0
+        },
+        "priceChange": {
+          "h6": -1.84,
+          "h24": -14.07
+        },
+        "liquidity": {
+          "usd": 79.88,
+          "base": 69576,
+          "quote": 0.2815
+        },
+        "fdv": 737286,
+        "marketCap": 737286,
+        "pairCreatedAt": 1772464249000,
+        "info": {
+          "imageUrl": "https://cdn.dexscreener.com/cms/images/CosLgfKcR4zLMl2Q?width=800&height=800&quality=95&format=auto",
+          "header": "https://cdn.dexscreener.com/cms/images/KVBwPqgrjh_PnaYB?width=1500&height=500&quality=95&format=auto",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/5yC9BM8KUsJTPbWPLfA2N8qH1s9V8DQ3Vcw1G6Jdpump?timestamp=1792974300000",
+          "websites": [
+            {
+              "url": "https://agenc.tech/",
+              "label": "Website"
+            },
+            {
+              "url": "https://docs.agenc.tech/docs/",
+              "label": "Docs"
+            }
+          ],
+          "socials": [
+            {
+              "url": "https://x.com/a_g_e_n_c",
+              "type": "twitter"
+            },
+            {
+              "url": "https://t.me/agenc_community",
+              "type": "telegram"
+            }
+          ]
+        }
+      },
+      {
+        "chainId": "solana",
+        "dexId": "meteora",
+        "url": "https://dexscreener.com/solana/camtzghm1xd48gaqvfx6r4d4jkbkgvterruetp9buich",
+        "pairAddress": "CAMtZghm1Xd48GAqVfx6r4D4jKBKgvtERRuEtP9BUiCH",
+        "labels": [
+          "DYN2"
+        ],
+        "baseToken": {
+          "address": "5yC9BM8KUsJTPbWPLfA2N8qH1s9V8DQ3Vcw1G6Jdpump",
+          "name": "AgenC",
+          "symbol": "AgenC"
+        },
+        "quoteToken": {
+          "address": "METvsvVRapdj9cFLzq4Tr43xK4tAjQfwX76z3n6mWQL",
+          "name": "Meteora",
+          "symbol": "MET"
+        },
+        "priceNative": "0.002585",
+        "priceUsd": "0.0007721",
+        "txns": {
+          "m5": {
+            "buys": 0,
+            "sells": 0
+          },
+          "h1": {
+            "buys": 0,
+            "sells": 0
+          },
+          "h6": {
+            "buys": 0,
+            "sells": 1
+          },
+          "h24": {
+            "buys": 7,
+            "sells": 6
+          }
+        },
+        "volume": {
+          "h24": 7.76,
+          "h6": 1.91,
+          "h1": 0,
+          "m5": 0
+        },
+        "priceChange": {
+          "h6": -2.74,
+          "h24": -5.22
+        },
+        "liquidity": {
+          "usd": 255.28,
+          "base": 166545,
+          "quote": 424.2774
+        },
+        "fdv": 772084,
+        "marketCap": 772084,
+        "pairCreatedAt": 1792348566000,
+        "info": {
+          "imageUrl": "https://cdn.dexscreener.com/cms/images/CosLgfKcR4zLMl2Q?width=800&height=800&quality=95&format=auto",
+          "header": "https://cdn.dexscreener.com/cms/images/KVBwPqgrjh_PnaYB?width=1500&height=500&quality=95&format=auto",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/5yC9BM8KUsJTPbWPLfA2N8qH1s9V8DQ3Vcw1G6Jdpump?timestamp=1792974300000",
+          "websites": [
+            {
+              "url": "https://agenc.tech/",
+              "label": "Website"
+            },
+            {
+              "url": "https://docs.agenc.tech/docs/",
+              "label": "Docs"
+            }
+          ],
+          "socials": [
+            {
+              "url": "https://x.com/a_g_e_n_c",
+              "type": "twitter"
+            },
+            {
+              "url": "https://t.me/agenc_community",
+              "type": "telegram"
+            }
+          ]
+        }
+      },
+      {
+        "chainId": "solana",
+        "dexId": "meteora",
+        "url": "https://dexscreener.com/solana/8rzyeuexvxjo2qtihd9fsguaevzhzqrbpypaa22vce3",
+        "pairAddress": "8RZYeuexVXJo2QTihd9FSguAeVZhZqrbpYpAA22vcE3",
+        "labels": [
+          "DYN2"
+        ],
+        "baseToken": {
+          "address": "5yC9BM8KUsJTPbWPLfA2N8qH1s9V8DQ3Vcw1G6Jdpump",
+          "name": "AgenC",
+          "symbol": "AgenC"
+        },
+        "quoteToken": {
+          "address": "9xzmB67zWX8PJiGpQFbWuNBXTqyPpu2qV3mxQfhqUREV",
+          "name": "Celestial SOL Router",
+          "symbol": "CSR"
+        },
+        "priceNative": "27.09294",
+        "priceUsd": "0.0007497",
+        "txns": {
+          "m5": {
+            "buys": 0,
+            "sells": 0
+          },
+          "h1": {
+            "buys": 0,
+            "sells": 0
+          },
+          "h6": {
+            "buys": 0,
+            "sells": 2
+          },
+          "h24": {
+            "buys": 5,
+            "sells": 12
+          }
+        },
+        "volume": {
+          "h24": 1.32,
+          "h6": 0.16,
+          "h1": 0,
+          "m5": 0
+        },
+        "priceChange": {
+          "h6": -4.87,
+          "h24": -12.73
+        },
+        "liquidity": {
+          "usd": 15.22,
+          "base": 10197,
+          "quote": 273986
+        },
+        "fdv": 749654,
+        "marketCap": 749654,
+        "pairCreatedAt": 1783645092000,
+        "info": {
+          "imageUrl": "https://cdn.dexscreener.com/cms/images/CosLgfKcR4zLMl2Q?width=800&height=800&quality=95&format=auto",
+          "header": "https://cdn.dexscreener.com/cms/images/KVBwPqgrjh_PnaYB?width=1500&height=500&quality=95&format=auto",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/5yC9BM8KUsJTPbWPLfA2N8qH1s9V8DQ3Vcw1G6Jdpump?timestamp=1792974300000",
+          "websites": [
+            {
+              "url": "https://agenc.tech/",
+              "label": "Website"
+            },
+            {
+              "url": "https://docs.agenc.tech/docs/",
+              "label": "Docs"
+            }
+          ],
+          "socials": [
+            {
+              "url": "https://x.com/a_g_e_n_c",
+              "type": "twitter"
+            },
+            {
+              "url": "https://t.me/agenc_community",
+              "type": "telegram"
+            }
+          ]
+        }
+      },
+      {
+        "chainId": "solana",
+        "dexId": "meteora",
+        "url": "https://dexscreener.com/solana/9yg9j9gv86nlpcbqhlvahsazyhjv9wertps3rckhhjmu",
+        "pairAddress": "9yg9j9gV86nLpcbqhLVAhSazYhjv9WertpS3RckHHjMU",
+        "labels": [
+          "DYN2"
+        ],
+        "baseToken": {
+          "address": "5yC9BM8KUsJTPbWPLfA2N8qH1s9V8DQ3Vcw1G6Jdpump",
+          "name": "AgenC",
+          "symbol": "AgenC"
+        },
+        "quoteToken": {
+          "address": "So11111111111111111111111111111111111111112",
+          "name": "Wrapped SOL",
+          "symbol": "SOL"
+        },
+        "priceNative": "0.000007440",
+        "priceUsd": "0.0007555",
+        "txns": {
+          "m5": {
+            "buys": 0,
+            "sells": 0
+          },
+          "h1": {
+            "buys": 0,
+            "sells": 0
+          },
+          "h6": {
+            "buys": 0,
+            "sells": 2
+          },
+          "h24": {
+            "buys": 0,
+            "sells": 6
+          }
+        },
+        "volume": {
+          "h24": 0.43,
+          "h6": 0.23,
+          "h1": 0,
+          "m5": 0
+        },
+        "priceChange": {
+          "h6": -5.38,
+          "h24": -7.14
+        },
+        "liquidity": {
+          "usd": 25.45,
+          "base": 16785,
+          "quote": 0.1257
+        },
+        "fdv": 755454,
+        "marketCap": 755454,
+        "pairCreatedAt": 1785978365000,
+        "info": {
+          "imageUrl": "https://cdn.dexscreener.com/cms/images/CosLgfKcR4zLMl2Q?width=800&height=800&quality=95&format=auto",
+          "header": "https://cdn.dexscreener.com/cms/images/KVBwPqgrjh_PnaYB?width=1500&height=500&quality=95&format=auto",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/5yC9BM8KUsJTPbWPLfA2N8qH1s9V8DQ3Vcw1G6Jdpump?timestamp=1792974300000",
+          "websites": [
+            {
+              "url": "https://agenc.tech/",
+              "label": "Website"
+            },
+            {
+              "url": "https://docs.agenc.tech/docs/",
+              "label": "Docs"
+            }
+          ],
+          "socials": [
+            {
+              "url": "https://x.com/a_g_e_n_c",
+              "type": "twitter"
+            },
+            {
+              "url": "https://t.me/agenc_community",
+              "type": "telegram"
+            }
+          ]
+        }
+      },
+      {
+        "chainId": "solana",
+        "dexId": "pumpswap",
+        "url": "https://dexscreener.com/solana/4vfvivd7oruzv4hg28gsu6txukd8zdygqv5qnnurlcbs",
+        "pairAddress": "4vfVivd7oRuZv4Hg28gSu6TxUkD8zdygQV5QNnURLcbs",
+        "baseToken": {
+          "address": "JAkdowvDpC6ZE3T8H1W4jUGhAzXfHwTiKBXMt8mVpump",
+          "name": "Agenc Hermes",
+          "symbol": "AgenH"
+        },
+        "quoteToken": {
+          "address": "5yC9BM8KUsJTPbWPLfA2N8qH1s9V8DQ3Vcw1G6Jdpump",
+          "name": "AgenC",
+          "symbol": "AgenC"
+        },
+        "priceNative": "0.008354",
+        "priceUsd": "0.000006549",
+        "txns": {
+          "m5": {
+            "buys": 0,
+            "sells": 0
+          },
+          "h1": {
+            "buys": 0,
+            "sells": 0
+          },
+          "h6": {
+            "buys": 1,
+            "sells": 1
+          },
+          "h24": {
+            "buys": 9,
+            "sells": 8
+          }
+        },
+        "volume": {
+          "h24": 1250.94,
+          "h6": 68.45,
+          "h1": 0,
+          "m5": 0
+        },
+        "priceChange": {
+          "h6": -0.34,
+          "h24": -30.63
+        },
+        "liquidity": {
+          "usd": 3894.98,
+          "base": 357801456,
+          "quote": 1979176
+        },
+        "fdv": 6310,
+        "marketCap": 6310,
+        "pairCreatedAt": 1792371600000,
+        "info": {
+          "imageUrl": "https://cdn.dexscreener.com/cms/images/S3H8PBRtYTFfYrKa?width=800&height=800&quality=95&format=auto",
+          "header": "https://cdn.dexscreener.com/cms/images/7GXpyhiywTcTvi_J?width=1500&height=500&quality=95&format=auto",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/JAkdowvDpC6ZE3T8H1W4jUGhAzXfHwTiKBXMt8mVpump?timestamp=1792974300000",
+          "websites": [
+            {
+              "url": "https://agenchermes.world/",
+              "label": "Website"
+            }
+          ],
+          "socials": [
+            {
+              "url": "https://x.com/AgencHermes",
+              "type": "twitter"
+            }
+          ]
+        }
+      },
+      {
+        "chainId": "solana",
+        "dexId": "pumpswap",
+        "url": "https://dexscreener.com/solana/42jwk23mb5hd4zazcbz3f1fwcl1me5bzv8thmhrwsedq",
+        "pairAddress": "42JWk23Mb5Hd4zAZcBZ3F1fwCL1Me5bZV8tHMhrWSeDQ",
+        "baseToken": {
+          "address": "3ZvEeeLxo55nKRwHywyxqBpKVouRV4gARNDUCQpapump",
+          "name": "Tetsuo Super Intelligence",
+          "symbol": "TSI"
+        },
+        "quoteToken": {
+          "address": "5yC9BM8KUsJTPbWPLfA2N8qH1s9V8DQ3Vcw1G6Jdpump",
+          "name": "AgenC",
+          "symbol": "AgenC"
+        },
+        "priceNative": "0.003069",
+        "priceUsd": "0.000002306",
+        "txns": {
+          "m5": {
+            "buys": 0,
+            "sells": 0
+          },
+          "h1": {
+            "buys": 2,
+            "sells": 0
+          },
+          "h6": {
+            "buys": 4,
+            "sells": 0
+          },
+          "h24": {
+            "buys": 13,
+            "sells": 15
+          }
+        },
+        "volume": {
+          "h24": 272.79,
+          "h6": 5.06,
+          "h1": 2.29,
+          "m5": 0
+        },
+        "priceChange": {
+          "h1": -2.96,
+          "h6": -7.39,
+          "h24": -25.61
+        },
+        "liquidity": {
+          "usd": 2392.02,
+          "base": 744993485,
+          "quote": 895924
+        },
+        "fdv": 2246,
+        "marketCap": 2246,
+        "pairCreatedAt": 1792288322000,
+        "info": {
+          "imageUrl": "https://cdn.dexscreener.com/cms/images/_ENEfUHc41Yc2v1u?width=800&height=800&quality=95&format=auto",
+          "header": "https://cdn.dexscreener.com/cms/images/EICoaFq_vaEK2_G6?width=1500&height=500&quality=95&format=auto",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/3ZvEeeLxo55nKRwHywyxqBpKVouRV4gARNDUCQpapump?timestamp=1792974300000",
+          "websites": [
+            {
+              "url": "https://www.youtube.com/watch?v=39XPKkW3m5s",
+              "label": "Website"
+            }
+          ],
+          "socials": [
+            {
+              "url": "https://x.com/Esotericgul/status/2111633529494786278",
+              "type": "twitter"
+            }
+          ]
+        }
+      },
+      {
+        "chainId": "solana",
+        "dexId": "pumpswap",
+        "url": "https://dexscreener.com/solana/h4hwzq9fchwadj1tmatffvhe282gu1cimsnemaz6mgxf",
+        "pairAddress": "H4hwZq9FcHwaDJ1tmAtFFvHE282gu1CiMSnemaz6mgxF",
+        "baseToken": {
+          "address": "2eNR9zSKCGPn26JHb8WG5srnxw25RK4gYsqkPYP3pump",
+          "name": "Tetsuo Super Intelligence",
+          "symbol": "TSI"
+        },
+        "quoteToken": {
+          "address": "5yC9BM8KUsJTPbWPLfA2N8qH1s9V8DQ3Vcw1G6Jdpump",
+          "name": "AgenC",
+          "symbol": "AgenC"
+        },
+        "priceNative": "0.001526",
+        "priceUsd": "0.000001147",
+        "txns": {
+          "m5": {
+            "buys": 0,
+            "sells": 0
+          },
+          "h1": {
+            "buys": 1,
+            "sells": 0
+          },
+          "h6": {
+            "buys": 2,
+            "sells": 0
+          },
+          "h24": {
+            "buys": 3,
+            "sells": 10
+          }
+        },
+        "volume": {
+          "h24": 14.04,
+          "h6": 1.66,
+          "h1": 0.75,
+          "m5": 0
+        },
+        "priceChange": {
+          "h1": -2.96,
+          "h6": -1.25,
+          "h24": -8.41
+        },
+        "liquidity": {
+          "usd": 1185.41,
+          "base": 948232332,
+          "quote": 129713
+        },
+        "fdv": 1092,
+        "marketCap": 1092,
+        "pairCreatedAt": 1792287867000
+      },
+      {
+        "chainId": "solana",
+        "dexId": "pumpfun",
+        "url": "https://dexscreener.com/solana/dzure1jtxnmkxxgwwhpgrzi4w6pepp9udpgi3uhkwi8s",
+        "pairAddress": "DZUre1JTXNmKXxGwWHPGrZi4W6pEPp9uDpGi3UHKWi8S",
+        "baseToken": {
+          "address": "2ekRgJJ94r6osGkBATEZCdDLdaqCT5yL7bhhHxWQpump",
+          "name": "Credits",
+          "symbol": "CR"
+        },
+        "quoteToken": {
+          "address": "5yC9BM8KUsJTPbWPLfA2N8qH1s9V8DQ3Vcw1G6Jdpump",
+          "name": "AgenC",
+          "symbol": "AgenC"
+        },
+        "priceNative": "0.003332",
+        "txns": {
+          "m5": {
+            "buys": 0,
+            "sells": 0
+          },
+          "h1": {
+            "buys": 0,
+            "sells": 0
+          },
+          "h6": {
+            "buys": 0,
+            "sells": 0
+          },
+          "h24": {
+            "buys": 1,
+            "sells": 0
+          }
+        },
+        "volume": {
+          "h24": 0,
+          "h6": 0,
+          "h1": 0,
+          "m5": 0
+        },
+        "priceChange": {},
+        "pairCreatedAt": 1792814171000
+      },
+      {
+        "chainId": "solana",
+        "dexId": "meteora",
+        "url": "https://dexscreener.com/solana/63anqy2wrbunbkvwtzjyjuphyeovzwtudhtryot3i6mm",
+        "pairAddress": "63aNQY2wRbUNBkVWTZJYjUPhyEoVzWTudhtrYoT3i6mm",
+        "labels": [
+          "DYN2"
+        ],
+        "baseToken": {
+          "address": "2UzL1RSBSWid59v66fsNVbCzVX8eaBwz88G4DJ6xnREV",
+          "name": "Infinite Liquidity Router",
+          "symbol": "ILR"
+        },
+        "quoteToken": {
+          "address": "5yC9BM8KUsJTPbWPLfA2N8qH1s9V8DQ3Vcw1G6Jdpump",
+          "name": "AgenC",
+          "symbol": "AgenC"
+        },
+        "priceNative": "0.01164",
+        "txns": {
+          "m5": {
+            "buys": 0,
+            "sells": 0
+          },
+          "h1": {
+            "buys": 0,
+            "sells": 0
+          },
+          "h6": {
+            "buys": 1,
+            "sells": 0
+          },
+          "h24": {
+            "buys": 10,
+            "sells": 7
+          }
+        },
+        "volume": {
+          "h24": 0,
+          "h6": 0,
+          "h1": 0,
+          "m5": 0
+        },
+        "priceChange": {
+          "h6": 1.05,
+          "h24": 5.28
+        },
+        "pairCreatedAt": 1791684056000
+      },
+      {
+        "chainId": "solana",
+        "dexId": "meteora",
+        "url": "https://dexscreener.com/solana/5enftazljcedgkj8t86zfe5ttflj6hkavzd9ieprnmrf",
+        "pairAddress": "5ENftaZLjcEDgKJ8t86ZFE5ttfLJ6HkAVZd9iEPRNMRf",
+        "labels": [
+          "DYN2"
+        ],
+        "baseToken": {
+          "address": "G2eWbQVMPQT6q4462nJMbRfWRNpPFfob2eM6Qz1LUREV",
+          "name": "Angelic SOL Router",
+          "symbol": "ASR"
+        },
+        "quoteToken": {
+          "address": "5yC9BM8KUsJTPbWPLfA2N8qH1s9V8DQ3Vcw1G6Jdpump",
+          "name": "AgenC",
+          "symbol": "AgenC"
+        },
+        "priceNative": "0.002349",
+        "txns": {
+          "m5": {
+            "buys": 0,
+            "sells": 0
+          },
+          "h1": {
+            "buys": 0,
+            "sells": 0
+          },
+          "h6": {
+            "buys": 1,
+            "sells": 0
+          },
+          "h24": {
+            "buys": 10,
+            "sells": 5
+          }
+        },
+        "volume": {
+          "h24": 0,
+          "h6": 0,
+          "h1": 0,
+          "m5": 0
+        },
+        "priceChange": {
+          "h6": 1.95,
+          "h24": 8.21
+        },
+        "pairCreatedAt": 1791757859000
+      },
+      {
+        "chainId": "solana",
+        "dexId": "meteora",
+        "url": "https://dexscreener.com/solana/5xjsjxjamwnychkqga6pokusavd3zlukqfhvxtnlvn9c",
+        "pairAddress": "5xjsJxJaMWnychKqgA6PoKUsavd3zLuKqFhvXTnLvN9c",
+        "labels": [
+          "DYN2"
+        ],
+        "baseToken": {
+          "address": "3v39wuiJ4kGzsmd1w4DCFDWfGC2ScaJ9mXfZJaXvoREV",
+          "name": "Elysian Solana Router",
+          "symbol": "ESR"
+        },
+        "quoteToken": {
+          "address": "5yC9BM8KUsJTPbWPLfA2N8qH1s9V8DQ3Vcw1G6Jdpump",
+          "name": "AgenC",
+          "symbol": "AgenC"
+        },
+        "priceNative": "0.01467",
+        "txns": {
+          "m5": {
+            "buys": 0,
+            "sells": 0
+          },
+          "h1": {
+            "buys": 0,
+            "sells": 0
+          },
+          "h6": {
+            "buys": 1,
+            "sells": 0
+          },
+          "h24": {
+            "buys": 8,
+            "sells": 6
+          }
+        },
+        "volume": {
+          "h24": 0,
+          "h6": 0,
+          "h1": 0,
+          "m5": 0
+        },
+        "priceChange": {
+          "h6": 1.79,
+          "h24": 8.05
+        },
+        "pairCreatedAt": 1785266367000
+      }
+    ]
+  }
+}
