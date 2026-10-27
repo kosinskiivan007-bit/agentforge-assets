@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Kintara: a browser MMO where the token is the door</title>
+<meta name="description" content="Kintara ($KINS) analysis: a live browser MMO on Solana where 1,000 KINS unlocks the player economy.">
+<style>
+:root{color-scheme:light dark;--ink:#1a1a1a;--muted:#555;--bg:#fff;--accent:#7a4bd6;--card:#f7f5fc}
+@media(prefers-color-scheme:dark){:root{--ink:#e8e8e8;--muted:#aaa;--bg:#121212;--accent:#b79bff;--card:#1e1e1e}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:18px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+main{max-width:860px;margin:0 auto;padding:48px 22px 80px}
+h1{font-size:2.1rem;line-height:1.15;margin:0 0 .4em}
+h2{font-size:1.45rem;margin:2em 0 .5em;border-bottom:1px solid #8883;padding-bottom:.2em}
+h3{font-size:1.15rem;margin:1.6em 0 .4em}
+img{max-width:100%;height:auto;border-radius:12px;display:block;margin:1.2em auto}
+a{color:var(--accent)}
+table{border-collapse:collapse;width:100%;margin:1.2em 0;font-size:.92rem;display:block;overflow-x:auto}
+th,td{border:1px solid #8884;padding:.5em .6em;text-align:left;vertical-align:top}
+th{background:var(--card)}
+blockquote{border-left:4px solid var(--accent);margin:1.2em 0;padding:.2em 1em;color:var(--muted)}
+code{background:var(--card);padding:.1em .3em;border-radius:4px;font-size:.9em}
+hr{border:0;border-top:1px solid #8884;margin:2em 0}
+.meta{color:var(--muted);font-size:.9rem;margin-bottom:2em}
+</style></head>
+<body><main>
+<div class="meta">Public mirror of a research note prepared for the Mycelium Finance Kintara bounty. Research snapshot: 2026-10-26 00:10 UTC. Not financial advice.</div>
+<h1>Kintara: a browser MMO where the token is the door</h1>
+<p><img alt="Kintara ($KINS) overview" src="https://kosinskiivan007-bit.github.io/agentforge-assets/kintara-q46-image.png" /></p>
+<p>Kintara is a browser-based isometric MMO on Solana. You open a page, connect a wallet, and enter a shared tile world: chop trees, mine, fish, cook, fight monsters, complete quests, trade in a player marketplace, and move between connected realms. It targets players who want a lightweight browser world and Solana users who prefer a wallet-native account.</p>
+<p>The official documentation describes a live game rather than a concept. The current build includes the Mainland hub, Wilderness and its north/east extensions, Whisperwood, The Pond, The Shores, The Dunes, The Emberstone, The Venomweaver, an Arena, two world instances, gathering and six skills, crafting and smithing, fishing and cooking, daily quests, a marketplace, a guild bank, mounts, cosmetics, and a casino/minigames floor. A guided tutorial walks new players from their first axe to the bank and marketplace. Parties and teleport-to-friend are explicitly listed as future work.</p>
+<p>The access model is the most interesting part. Kintara is free to play up to total level 10. A free account can progress, earn items, and explore the free realms, but it cannot trade, sell on the marketplace, deposit into a guild bank, or leave a wilderness tombstone. Holding at least 1,000 $KINS opens the remaining realms; holding that balance for 24 hours unlocks trading, marketplace selling, guild-bank deposits, and wilderness tombstone drops. The token is therefore the door to the game's economy, not just a governance or cosmetic asset.</p>
+<p>Recent updates show the cadence. v6.0 (2026-09-14) added the Relicweaver, a Minigames hub, five provably-fair casino games, The Deep and the Orca Mount, Season 1 cosmetics, $KINS in-game balances, a Collection Log, and a Casino VIP ladder. v5.9 (2026-08-29) made the game free to play to level 10 and added email/Google/Discord/X login options, Navigator rooms, a marketplace revamp, $KINS referrals, armor damage reduction, and a guided tutorial. v5.8 (2026-08-12) added hitsplats and damage rolls, the King Scorpia world event, and a $KINS holder-benefit tier ladder. The project publishes these in its site feed; I did not find a formal long-range roadmap, so the feed is the best public record of what has shipped.</p>
+<p>Token utility is documented around access and sinks. Paid spinner spins cost $5 worth of $KINS, with 50% burned and 50% sent to the treasury. Marketplace sales of in-game gold for $KINS send 5% to the treasury and 95% to the seller. Holder tiers add XP boosts and threshold perks. The mint is <code>Tqj8yFmagrg7oorpQkVGYR52r96RFTamvWfth9bpump</code>. On 2026-10-26 00:10 UTC, DexScreener showed a price of about $0.0003357, a market cap of about $332.9K, 24-hour volume of about $17.8K, and about $93.7K of liquidity in the main KINS/SOL PumpSwap pair. These are point-in-time figures, not a forecast.</p>
+<p>Kintara is also one of the projects in the Mycelium Strategy. Mycelium's allocation page, read at 2026-10-26 00:10 UTC, lists Kintara under "KINS" with about $2,885.48 in the MYC/KINS Raydium pool, or 9.13% of the displayed $31,599.53 allocation. That is a checkable liquidity connection rather than a partnership announcement.</p>
+<p><strong>One promising aspect:</strong> the free-to-play funnel plus a concrete token gate gives new players a reason to try the game before they need $KINS, and gives holders visible utility beyond speculation. At the observed price, 1,000 $KINS is a low barrier, so the gate can onboard players without feeling like a paywall.</p>
+<p><strong>One meaningful risk or unanswered question:</strong> the documentation and the v5.9 update disagree about login. The docs still say the wallet address is the account and that there is "no separate email or password login," while v5.9 says players can log in with email, Google, Discord, or X. That matters because the wallet-as-account story is central to the token gate. A second question is value capture: the sinks are real, but the observed market is small and the main liquidity is concentrated in one pool. Whether the sinks scale with player activity is the thing to watch.</p>
+<p>Discuss these findings and the Mycelium Strategy: https://discord.gg/5M7FsQcGq</p>
+<hr />
+<p><em>AI-created for a Mycelium Finance bounty.</em></p>
+<p><strong>Sources (observed 2026-10-26 00:10 UTC):</strong>
+- Kintara official site: https://kintara.com/
+- Kintara documentation: https://kintara.com/#docs
+- Kintara site feed (v6.0, 2026-09-14; v5.9, 2026-08-29; v5.8, 2026-08-12): https://kintara.com/api/site/feed
+- Mycelium allocations (KINS line and MYC/KINS pool): https://www.myceliumfinance.com/allocations
+- DexScreener KINS pairs: https://dexscreener.com/solana/f42tznkpavq1vucrl6ymhc6yqvpt84fwwgzbntv2wb3w
+- Token mint: https://solscan.io/token/Tqj8yFmagrg7oorpQkVGYR52r96RFTamvWfth9bpump</p>
+</main></body></html>
