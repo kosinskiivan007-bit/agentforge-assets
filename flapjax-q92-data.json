@@ -1,0 +1,459 @@
+{
+ "title": "FlapJax Q92 — treasury FLAPJAX outflows on 2026-11-04 COT",
+ "token": {
+  "address": "0x90c8889f428F9Ebb77BB8f15CAD3a50a9aC680df",
+  "symbol": "FLAPJAX",
+  "decimals": 18
+ },
+ "treasury": "0x7C34E9e21eE28A49Ff0b84B61774119E6633359f",
+ "day": {
+  "timezone": "COT (UTC-5)",
+  "start_utc": "2026-11-04 05:00:00",
+  "end_utc": "2026-11-05 04:59:59",
+  "first_block": 131565092,
+  "first_block_hash": "0x3ee855d27ccad5d2d83a8a14bbb81463d874ba8054de2ebf6d3adf8ed4881197",
+  "last_block": 131757034,
+  "last_block_hash": "0x3660ed6f0fec79e4d4b12cda284022a9913cb8c08e1f0e2e9612fcd21fa53133"
+ },
+ "totals": {
+  "transfers": 13,
+  "distinct_recipients": 11,
+  "total_wei": "1470000000000000000000000",
+  "total_flapjax": "1,470,000",
+  "operator_clusters": 11
+ },
+ "transfers": [
+  {
+   "tx": "0xd178c555bd7f748d9b34a5ff6ff0f43679bce0549b17fb267133357d334dc4bc",
+   "block": 131628993,
+   "utc": "2026-11-04 12:59:23",
+   "cot": "2026-11-04 07:59:23",
+   "to": "0xa8fe84bdcae37e978511012dfec736b07b00fc55",
+   "wei": "100000000000000000000000",
+   "amount": 99999.99999999999,
+   "amount_str": "100,000"
+  },
+  {
+   "tx": "0x33e9c778e1317db291aaf85e94de7e924a1f4a3dd2e6a2ea320373ca6ef83661",
+   "block": 131631881,
+   "utc": "2026-11-04 13:21:03",
+   "cot": "2026-11-04 08:21:03",
+   "to": "0x3ccb7381ad4ea4eaab88c370818505771f998c80",
+   "wei": "25000000000000000000000",
+   "amount": 24999.999999999996,
+   "amount_str": "25,000"
+  },
+  {
+   "tx": "0xbb271e247999945030a6b1c39a8ca29eab3bd6861c9a44fa4e2c18836f0e5bad",
+   "block": 131631927,
+   "utc": "2026-11-04 13:21:23",
+   "cot": "2026-11-04 08:21:23",
+   "to": "0xfb200657f7266157a45dfcc6c09690726daa24e6",
+   "wei": "25000000000000000000000",
+   "amount": 24999.999999999996,
+   "amount_str": "25,000"
+  },
+  {
+   "tx": "0xfc6b000f52292e7842bb53ecd651492838654af36a974a92444cb85e99e218fe",
+   "block": 131631974,
+   "utc": "2026-11-04 13:21:44",
+   "cot": "2026-11-04 08:21:44",
+   "to": "0xabc2c3daffa4c1963299da225c25f2aa7d4ddf62",
+   "wei": "25000000000000000000000",
+   "amount": 24999.999999999996,
+   "amount_str": "25,000"
+  },
+  {
+   "tx": "0x159b6bf8cf0578c8b08e2d9816acbc46a3358083e987bf202efee71e1920df29",
+   "block": 131632020,
+   "utc": "2026-11-04 13:22:05",
+   "cot": "2026-11-04 08:22:05",
+   "to": "0x97cd18b8bbb629b17675d868259ea84c0a2a5a9c",
+   "wei": "25000000000000000000000",
+   "amount": 24999.999999999996,
+   "amount_str": "25,000"
+  },
+  {
+   "tx": "0xfc40f601c024317a18ebbf7d6b74e5e79838814ab76207765138edebf7b92ddc",
+   "block": 131632431,
+   "utc": "2026-11-04 13:25:10",
+   "cot": "2026-11-04 08:25:10",
+   "to": "0x42c812fc1d6fb10600e99a1518df970f5be67ad6",
+   "wei": "100000000000000000000000",
+   "amount": 99999.99999999999,
+   "amount_str": "100,000"
+  },
+  {
+   "tx": "0x9a5724a8988150ada421f88090a1c7a78759415a5f131d9f7b8779057bb29182",
+   "block": 131641440,
+   "utc": "2026-11-04 14:32:47",
+   "cot": "2026-11-04 09:32:47",
+   "to": "0xa15c58e7008fc7a0331cfcc86a28af99fd21b93c",
+   "wei": "25000000000000000000000",
+   "amount": 24999.999999999996,
+   "amount_str": "25,000"
+  },
+  {
+   "tx": "0x0fa1b11605a7c62389194059e7310f8fd1f287d37d0aa0563f68aa05d891b73a",
+   "block": 131641829,
+   "utc": "2026-11-04 14:35:42",
+   "cot": "2026-11-04 09:35:42",
+   "to": "0x3aeae5f742e34f94db19b6c494072957633fa7ca",
+   "wei": "300000000000000000000000",
+   "amount": 300000.0,
+   "amount_str": "300,000"
+  },
+  {
+   "tx": "0x50547829b5f105346c16092e74b20dcea0365ff0c91af627a3a2ea285b93c4c9",
+   "block": 131649390,
+   "utc": "2026-11-04 15:32:27",
+   "cot": "2026-11-04 10:32:27",
+   "to": "0x4644f7b8679bf0b6f22e69408e2272e9f4417b45",
+   "wei": "300000000000000000000000",
+   "amount": 300000.0,
+   "amount_str": "300,000"
+  },
+  {
+   "tx": "0x22284f65a6642fa5621713850b380f9d24a5688d091e6a0627fc26c3fa971168",
+   "block": 131649446,
+   "utc": "2026-11-04 15:32:52",
+   "cot": "2026-11-04 10:32:52",
+   "to": "0xdf4ff9d2f45f99f11a90b16f277d4b7edddb72a5",
+   "wei": "300000000000000000000000",
+   "amount": 300000.0,
+   "amount_str": "300,000"
+  },
+  {
+   "tx": "0x0d955b89fe7336b85d2a36504961746c326a65737edb148829aac021c9fe403a",
+   "block": 131649508,
+   "utc": "2026-11-04 15:33:20",
+   "cot": "2026-11-04 10:33:20",
+   "to": "0x4644f7b8679bf0b6f22e69408e2272e9f4417b45",
+   "wei": "120000000000000000000000",
+   "amount": 120000.0,
+   "amount_str": "120,000"
+  },
+  {
+   "tx": "0xb9093463a5ef1e8ffcba208502562163b95dcbc05283750e5c0b062d7105a975",
+   "block": 131655846,
+   "utc": "2026-11-04 16:20:53",
+   "cot": "2026-11-04 11:20:53",
+   "to": "0xfdf05af8ddce3621f01713e01721d6e9ad702ea8",
+   "wei": "25000000000000000000000",
+   "amount": 24999.999999999996,
+   "amount_str": "25,000"
+  },
+  {
+   "tx": "0xe1bae6ac767fbbfaa511f1d5b38aa732fcf5694ceadd9475fde5b9ad765b46d4",
+   "block": 131656173,
+   "utc": "2026-11-04 16:23:20",
+   "cot": "2026-11-04 11:23:20",
+   "to": "0x4644f7b8679bf0b6f22e69408e2272e9f4417b45",
+   "wei": "100000000000000000000000",
+   "amount": 99999.99999999999,
+   "amount_str": "100,000"
+  }
+ ],
+ "recipients": [
+  {
+   "address": "0xa8fe84bdcae37e978511012dfec736b07b00fc55",
+   "count": 1,
+   "total_wei": 100000000000000000000000,
+   "txs": [
+    {
+     "tx": "0xd178c555bd7f748d9b34a5ff6ff0f43679bce0549b17fb267133357d334dc4bc",
+     "block": 131628993,
+     "utc": "2026-11-04 12:59:23",
+     "cot": "2026-11-04 07:59:23",
+     "to": "0xa8fe84bdcae37e978511012dfec736b07b00fc55",
+     "wei": "100000000000000000000000",
+     "amount": 99999.99999999999,
+     "amount_str": "100,000"
+    }
+   ],
+   "amount_str": "100,000",
+   "first_funder": null,
+   "bscscan": "https://bscscan.com/address/0xa8fe84bdcae37e978511012dfec736b07b00fc55",
+   "nonce": 0,
+   "bnb": "0",
+   "code": "EOA"
+  },
+  {
+   "address": "0x3ccb7381ad4ea4eaab88c370818505771f998c80",
+   "count": 1,
+   "total_wei": 25000000000000000000000,
+   "txs": [
+    {
+     "tx": "0x33e9c778e1317db291aaf85e94de7e924a1f4a3dd2e6a2ea320373ca6ef83661",
+     "block": 131631881,
+     "utc": "2026-11-04 13:21:03",
+     "cot": "2026-11-04 08:21:03",
+     "to": "0x3ccb7381ad4ea4eaab88c370818505771f998c80",
+     "wei": "25000000000000000000000",
+     "amount": 24999.999999999996,
+     "amount_str": "25,000"
+    }
+   ],
+   "amount_str": "25,000",
+   "first_funder": null,
+   "bscscan": "https://bscscan.com/address/0x3ccb7381ad4ea4eaab88c370818505771f998c80",
+   "nonce": 0,
+   "bnb": "0",
+   "code": "EOA"
+  },
+  {
+   "address": "0xfb200657f7266157a45dfcc6c09690726daa24e6",
+   "count": 1,
+   "total_wei": 25000000000000000000000,
+   "txs": [
+    {
+     "tx": "0xbb271e247999945030a6b1c39a8ca29eab3bd6861c9a44fa4e2c18836f0e5bad",
+     "block": 131631927,
+     "utc": "2026-11-04 13:21:23",
+     "cot": "2026-11-04 08:21:23",
+     "to": "0xfb200657f7266157a45dfcc6c09690726daa24e6",
+     "wei": "25000000000000000000000",
+     "amount": 24999.999999999996,
+     "amount_str": "25,000"
+    }
+   ],
+   "amount_str": "25,000",
+   "first_funder": {
+    "address": "0x7C34E9e21eE28A49Ff0b84B61774119E6633359f",
+    "tx": "0xa3d7042983f4f2352b9b8f324414688db10887e2b2b2a125deca9a8bec6624e7",
+    "block": 126835408,
+    "utc": "2026-10-10 13:25:31",
+    "cot": "2026-10-10 08:25:31",
+    "bnb": "0.0005"
+   },
+   "bscscan": "https://bscscan.com/address/0xfb200657f7266157a45dfcc6c09690726daa24e6",
+   "nonce": 0,
+   "bnb": "0.0005",
+   "code": "EOA"
+  },
+  {
+   "address": "0xabc2c3daffa4c1963299da225c25f2aa7d4ddf62",
+   "count": 1,
+   "total_wei": 25000000000000000000000,
+   "txs": [
+    {
+     "tx": "0xfc6b000f52292e7842bb53ecd651492838654af36a974a92444cb85e99e218fe",
+     "block": 131631974,
+     "utc": "2026-11-04 13:21:44",
+     "cot": "2026-11-04 08:21:44",
+     "to": "0xabc2c3daffa4c1963299da225c25f2aa7d4ddf62",
+     "wei": "25000000000000000000000",
+     "amount": 24999.999999999996,
+     "amount_str": "25,000"
+    }
+   ],
+   "amount_str": "25,000",
+   "first_funder": null,
+   "bscscan": "https://bscscan.com/address/0xabc2c3daffa4c1963299da225c25f2aa7d4ddf62",
+   "nonce": 0,
+   "bnb": "0",
+   "code": "EOA"
+  },
+  {
+   "address": "0x97cd18b8bbb629b17675d868259ea84c0a2a5a9c",
+   "count": 1,
+   "total_wei": 25000000000000000000000,
+   "txs": [
+    {
+     "tx": "0x159b6bf8cf0578c8b08e2d9816acbc46a3358083e987bf202efee71e1920df29",
+     "block": 131632020,
+     "utc": "2026-11-04 13:22:05",
+     "cot": "2026-11-04 08:22:05",
+     "to": "0x97cd18b8bbb629b17675d868259ea84c0a2a5a9c",
+     "wei": "25000000000000000000000",
+     "amount": 24999.999999999996,
+     "amount_str": "25,000"
+    }
+   ],
+   "amount_str": "25,000",
+   "first_funder": null,
+   "bscscan": "https://bscscan.com/address/0x97cd18b8bbb629b17675d868259ea84c0a2a5a9c",
+   "nonce": 0,
+   "bnb": "0",
+   "code": "EOA"
+  },
+  {
+   "address": "0x42c812fc1d6fb10600e99a1518df970f5be67ad6",
+   "count": 1,
+   "total_wei": 100000000000000000000000,
+   "txs": [
+    {
+     "tx": "0xfc40f601c024317a18ebbf7d6b74e5e79838814ab76207765138edebf7b92ddc",
+     "block": 131632431,
+     "utc": "2026-11-04 13:25:10",
+     "cot": "2026-11-04 08:25:10",
+     "to": "0x42c812fc1d6fb10600e99a1518df970f5be67ad6",
+     "wei": "100000000000000000000000",
+     "amount": 99999.99999999999,
+     "amount_str": "100,000"
+    }
+   ],
+   "amount_str": "100,000",
+   "first_funder": null,
+   "bscscan": "https://bscscan.com/address/0x42c812fc1d6fb10600e99a1518df970f5be67ad6",
+   "nonce": 0,
+   "bnb": "0",
+   "code": "EOA"
+  },
+  {
+   "address": "0xa15c58e7008fc7a0331cfcc86a28af99fd21b93c",
+   "count": 1,
+   "total_wei": 25000000000000000000000,
+   "txs": [
+    {
+     "tx": "0x9a5724a8988150ada421f88090a1c7a78759415a5f131d9f7b8779057bb29182",
+     "block": 131641440,
+     "utc": "2026-11-04 14:32:47",
+     "cot": "2026-11-04 09:32:47",
+     "to": "0xa15c58e7008fc7a0331cfcc86a28af99fd21b93c",
+     "wei": "25000000000000000000000",
+     "amount": 24999.999999999996,
+     "amount_str": "25,000"
+    }
+   ],
+   "amount_str": "25,000",
+   "first_funder": null,
+   "bscscan": "https://bscscan.com/address/0xa15c58e7008fc7a0331cfcc86a28af99fd21b93c",
+   "nonce": 0,
+   "bnb": "0",
+   "code": "EOA"
+  },
+  {
+   "address": "0x3aeae5f742e34f94db19b6c494072957633fa7ca",
+   "count": 1,
+   "total_wei": 300000000000000000000000,
+   "txs": [
+    {
+     "tx": "0x0fa1b11605a7c62389194059e7310f8fd1f287d37d0aa0563f68aa05d891b73a",
+     "block": 131641829,
+     "utc": "2026-11-04 14:35:42",
+     "cot": "2026-11-04 09:35:42",
+     "to": "0x3aeae5f742e34f94db19b6c494072957633fa7ca",
+     "wei": "300000000000000000000000",
+     "amount": 300000.0,
+     "amount_str": "300,000"
+    }
+   ],
+   "amount_str": "300,000",
+   "first_funder": null,
+   "bscscan": "https://bscscan.com/address/0x3aeae5f742e34f94db19b6c494072957633fa7ca",
+   "nonce": 0,
+   "bnb": "0",
+   "code": "EOA"
+  },
+  {
+   "address": "0x4644f7b8679bf0b6f22e69408e2272e9f4417b45",
+   "count": 3,
+   "total_wei": 520000000000000000000000,
+   "txs": [
+    {
+     "tx": "0x50547829b5f105346c16092e74b20dcea0365ff0c91af627a3a2ea285b93c4c9",
+     "block": 131649390,
+     "utc": "2026-11-04 15:32:27",
+     "cot": "2026-11-04 10:32:27",
+     "to": "0x4644f7b8679bf0b6f22e69408e2272e9f4417b45",
+     "wei": "300000000000000000000000",
+     "amount": 300000.0,
+     "amount_str": "300,000"
+    },
+    {
+     "tx": "0x0d955b89fe7336b85d2a36504961746c326a65737edb148829aac021c9fe403a",
+     "block": 131649508,
+     "utc": "2026-11-04 15:33:20",
+     "cot": "2026-11-04 10:33:20",
+     "to": "0x4644f7b8679bf0b6f22e69408e2272e9f4417b45",
+     "wei": "120000000000000000000000",
+     "amount": 120000.0,
+     "amount_str": "120,000"
+    },
+    {
+     "tx": "0xe1bae6ac767fbbfaa511f1d5b38aa732fcf5694ceadd9475fde5b9ad765b46d4",
+     "block": 131656173,
+     "utc": "2026-11-04 16:23:20",
+     "cot": "2026-11-04 11:23:20",
+     "to": "0x4644f7b8679bf0b6f22e69408e2272e9f4417b45",
+     "wei": "100000000000000000000000",
+     "amount": 99999.99999999999,
+     "amount_str": "100,000"
+    }
+   ],
+   "amount_str": "520,000",
+   "first_funder": null,
+   "bscscan": "https://bscscan.com/address/0x4644f7b8679bf0b6f22e69408e2272e9f4417b45",
+   "nonce": 0,
+   "bnb": "0",
+   "code": "EOA"
+  },
+  {
+   "address": "0xdf4ff9d2f45f99f11a90b16f277d4b7edddb72a5",
+   "count": 1,
+   "total_wei": 300000000000000000000000,
+   "txs": [
+    {
+     "tx": "0x22284f65a6642fa5621713850b380f9d24a5688d091e6a0627fc26c3fa971168",
+     "block": 131649446,
+     "utc": "2026-11-04 15:32:52",
+     "cot": "2026-11-04 10:32:52",
+     "to": "0xdf4ff9d2f45f99f11a90b16f277d4b7edddb72a5",
+     "wei": "300000000000000000000000",
+     "amount": 300000.0,
+     "amount_str": "300,000"
+    }
+   ],
+   "amount_str": "300,000",
+   "first_funder": null,
+   "bscscan": "https://bscscan.com/address/0xdf4ff9d2f45f99f11a90b16f277d4b7edddb72a5",
+   "nonce": 0,
+   "bnb": "0",
+   "code": "EOA"
+  },
+  {
+   "address": "0xfdf05af8ddce3621f01713e01721d6e9ad702ea8",
+   "count": 1,
+   "total_wei": 25000000000000000000000,
+   "txs": [
+    {
+     "tx": "0xb9093463a5ef1e8ffcba208502562163b95dcbc05283750e5c0b062d7105a975",
+     "block": 131655846,
+     "utc": "2026-11-04 16:20:53",
+     "cot": "2026-11-04 11:20:53",
+     "to": "0xfdf05af8ddce3621f01713e01721d6e9ad702ea8",
+     "wei": "25000000000000000000000",
+     "amount": 24999.999999999996,
+     "amount_str": "25,000"
+    }
+   ],
+   "amount_str": "25,000",
+   "first_funder": null,
+   "bscscan": "https://bscscan.com/address/0xfdf05af8ddce3621f01713e01721d6e9ad702ea8",
+   "nonce": 0,
+   "bnb": "0",
+   "code": "EOA"
+  }
+ ],
+ "treasury_first_bnb_funder": {
+  "address": "0x5BA434B40Be6cfc7033BF8d4545320Fa609a4268",
+  "label": "Binance US 5",
+  "note": "BscScan says treasury was funded by Binance US 5 43 days ago; no recipient shares this funder."
+ },
+ "method": {
+  "rpc": "https://bsc-rpc.publicnode.com",
+  "crosscheck_rpc": "https://1rpc.io/bnb",
+  "log_filter": "address=token, topic0=Transfer, topic1=treasury, blocks 131565092..131757034",
+  "chunk": "10,000 blocks",
+  "first_funder_check": "BscScan address page FUNDED BY + transaction list; eth_getTransactionCount; eth_getBalance; eth_getCode"
+ },
+ "notes": [
+  "All 13 transfers are ERC-20 Transfer logs from the treasury.",
+  "11 distinct recipients; 0x4644...b45 received three payments (300,000 + 120,000 + 100,000).",
+  "Only 0xfb20...4e6 has an incoming BNB funding transaction: treasury sent 0.0005 BNB in tx 0xa3d704...24e7 (block 126835408, 2026-10-10 08:25:31 COT).",
+  "The other 10 recipients are EOAs with nonce 0, 0 BNB, and no BscScan transactions other than the FLAPJAX token transfer; no first BNB funder exists on BSC.",
+  "Using the task's shared-first-funder heuristic: one cluster is treasury + 0xfb20...4e6; the other 10 recipients are singletons. Total 11 operator clusters.",
+  "The absence of BNB funding is not proof of independent operation; it means the requested heuristic cannot attribute those 10 wallets."
+ ]
+}
