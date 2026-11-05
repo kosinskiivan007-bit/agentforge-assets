@@ -1,0 +1,195 @@
+{
+ "title": "FlapJax Q90 \u2014 treasury FLAPJAX outflows on 2026-11-03 COT",
+ "token": {
+  "address": "0x90c8889f428F9Ebb77BB8f15CAD3a50a9aC680df",
+  "symbol": "FLAPJAX",
+  "decimals": 18
+ },
+ "treasury": "0x7C34E9e21eE28A49Ff0b84B61774119E6633359f",
+ "day": {
+  "timezone": "COT (UTC-5)",
+  "start_utc": "2026-11-03 05:00:00",
+  "end_utc": "2026-11-04 04:59:59",
+  "first_block": 131373134,
+  "first_block_hash": "0x5ca541430504f630241b44391eb7e3c961d079548c4de917210c45e725131ab6",
+  "last_block": 131565091,
+  "last_block_hash": "0x7b158660b10d38fc8bb81e29ccc1e00e7deeecd5927acc148fe6f62aff6c499b"
+ },
+ "totals": {
+  "transfers": 5,
+  "distinct_recipients": 5,
+  "total_wei": "700000000000000000000000",
+  "total_flapjax": "700,000",
+  "operator_clusters": 5
+ },
+ "transfers": [
+  {
+   "tx": "0xb8fbd1ca7f7641d0ef2dc1d5e18c2b0a3c1182c6c03d04283d45e07cb65e66a3",
+   "block": 131464427,
+   "utc": "2026-11-03 16:24:53",
+   "cot": "2026-11-03 11:24:53",
+   "to": "0xfdf05af8ddce3621f01713e01721d6e9ad702ea8",
+   "wei": "25000000000000000000000",
+   "amount_str": "25,000"
+  },
+  {
+   "tx": "0x1ceaf9ad4a99aa9059b0508d40bbb12c80b14afd8b7f91995b377e6a087a7e5f",
+   "block": 131526693,
+   "utc": "2026-11-04 00:11:58",
+   "cot": "2026-11-03 19:11:58",
+   "to": "0x81e75b9257e8576fce1f6542feff9f88915cbe84",
+   "wei": "250000000000000000000000",
+   "amount_str": "250,000"
+  },
+  {
+   "tx": "0xdfabc0f45e5b5e0ea215bbfab71a9ecf7ef79ca0c23e7c122927dbf908be3c4c",
+   "block": 131526812,
+   "utc": "2026-11-04 00:12:52",
+   "cot": "2026-11-03 19:12:52",
+   "to": "0xff10257b896be19a98af436ab2f5fdf52fccc3a8",
+   "wei": "100000000000000000000000",
+   "amount_str": "100,000"
+  },
+  {
+   "tx": "0x7dc89ec0dc947cb34b5784b69aab415df84c8368e37d208d2ba3b0763a5e5513",
+   "block": 131528859,
+   "utc": "2026-11-04 00:28:13",
+   "cot": "2026-11-03 19:28:13",
+   "to": "0xd16446a568f46bca1504422062f23767d8fa58d9",
+   "wei": "300000000000000000000000",
+   "amount_str": "300,000"
+  },
+  {
+   "tx": "0x85418e94ff4450a794f9c1dd29f22dce8cdfd5fea15f3f7ff69d084c4d7d1f8b",
+   "block": 131528982,
+   "utc": "2026-11-04 00:29:08",
+   "cot": "2026-11-03 19:29:08",
+   "to": "0x97cd18b8bbb629b17675d868259ea84c0a2a5a9c",
+   "wei": "25000000000000000000000",
+   "amount_str": "25,000"
+  }
+ ],
+ "recipients": [
+  {
+   "address": "0xfdf05af8ddce3621f01713e01721d6e9ad702ea8",
+   "count": 1,
+   "total_wei": 25000000000000000000000,
+   "txs": [
+    {
+     "tx": "0xb8fbd1ca7f7641d0ef2dc1d5e18c2b0a3c1182c6c03d04283d45e07cb65e66a3",
+     "block": 131464427,
+     "utc": "2026-11-03 16:24:53",
+     "cot": "2026-11-03 11:24:53",
+     "to": "0xfdf05af8ddce3621f01713e01721d6e9ad702ea8",
+     "wei": "25000000000000000000000",
+     "amount_str": "25,000"
+    }
+   ],
+   "amount_str": "25,000",
+   "first_funder": null,
+   "bscscan": "https://bscscan.com/address/0xfdf05af8ddce3621f01713e01721d6e9ad702ea8",
+   "nonce": 0,
+   "bnb": "0",
+   "code": "EOA"
+  },
+  {
+   "address": "0x81e75b9257e8576fce1f6542feff9f88915cbe84",
+   "count": 1,
+   "total_wei": 250000000000000000000000,
+   "txs": [
+    {
+     "tx": "0x1ceaf9ad4a99aa9059b0508d40bbb12c80b14afd8b7f91995b377e6a087a7e5f",
+     "block": 131526693,
+     "utc": "2026-11-04 00:11:58",
+     "cot": "2026-11-03 19:11:58",
+     "to": "0x81e75b9257e8576fce1f6542feff9f88915cbe84",
+     "wei": "250000000000000000000000",
+     "amount_str": "250,000"
+    }
+   ],
+   "amount_str": "250,000",
+   "first_funder": null,
+   "bscscan": "https://bscscan.com/address/0x81e75b9257e8576fce1f6542feff9f88915cbe84",
+   "nonce": 0,
+   "bnb": "0",
+   "code": "EOA"
+  },
+  {
+   "address": "0xff10257b896be19a98af436ab2f5fdf52fccc3a8",
+   "count": 1,
+   "total_wei": 100000000000000000000000,
+   "txs": [
+    {
+     "tx": "0xdfabc0f45e5b5e0ea215bbfab71a9ecf7ef79ca0c23e7c122927dbf908be3c4c",
+     "block": 131526812,
+     "utc": "2026-11-04 00:12:52",
+     "cot": "2026-11-03 19:12:52",
+     "to": "0xff10257b896be19a98af436ab2f5fdf52fccc3a8",
+     "wei": "100000000000000000000000",
+     "amount_str": "100,000"
+    }
+   ],
+   "amount_str": "100,000",
+   "first_funder": null,
+   "bscscan": "https://bscscan.com/address/0xff10257b896be19a98af436ab2f5fdf52fccc3a8",
+   "nonce": 0,
+   "bnb": "0",
+   "code": "EOA"
+  },
+  {
+   "address": "0xd16446a568f46bca1504422062f23767d8fa58d9",
+   "count": 1,
+   "total_wei": 300000000000000000000000,
+   "txs": [
+    {
+     "tx": "0x7dc89ec0dc947cb34b5784b69aab415df84c8368e37d208d2ba3b0763a5e5513",
+     "block": 131528859,
+     "utc": "2026-11-04 00:28:13",
+     "cot": "2026-11-03 19:28:13",
+     "to": "0xd16446a568f46bca1504422062f23767d8fa58d9",
+     "wei": "300000000000000000000000",
+     "amount_str": "300,000"
+    }
+   ],
+   "amount_str": "300,000",
+   "first_funder": null,
+   "bscscan": "https://bscscan.com/address/0xd16446a568f46bca1504422062f23767d8fa58d9",
+   "nonce": 0,
+   "bnb": "0",
+   "code": "EOA"
+  },
+  {
+   "address": "0x97cd18b8bbb629b17675d868259ea84c0a2a5a9c",
+   "count": 1,
+   "total_wei": 25000000000000000000000,
+   "txs": [
+    {
+     "tx": "0x85418e94ff4450a794f9c1dd29f22dce8cdfd5fea15f3f7ff69d084c4d7d1f8b",
+     "block": 131528982,
+     "utc": "2026-11-04 00:29:08",
+     "cot": "2026-11-03 19:29:08",
+     "to": "0x97cd18b8bbb629b17675d868259ea84c0a2a5a9c",
+     "wei": "25000000000000000000000",
+     "amount_str": "25,000"
+    }
+   ],
+   "amount_str": "25,000",
+   "first_funder": null,
+   "bscscan": "https://bscscan.com/address/0x97cd18b8bbb629b17675d868259ea84c0a2a5a9c",
+   "nonce": 0,
+   "bnb": "0",
+   "code": "EOA"
+  }
+ ],
+ "treasury_first_bnb_funder": {
+  "address": "0x5BA434B40Be6cfc7033BF8d4545320Fa609a4268",
+  "label": "Binance US 5",
+  "note": "BscScan says treasury was funded by Binance US 5; no recipient shares this funder."
+ },
+ "notes": [
+  "5 transfers, 5 distinct recipients, 700,000 FLAPJAX total.",
+  "No recipient has an incoming BNB transaction; all are nonce-0 EOAs with 0 BNB and no FUNDED BY value.",
+  "5 singleton operator clusters under the first-BNB-funder heuristic.",
+  "No unexplained transfers."
+ ]
+}
