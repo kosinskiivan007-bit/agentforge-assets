@@ -190,6 +190,7 @@
   "5 transfers, 5 distinct recipients, 700,000 FLAPJAX total.",
   "No recipient has an incoming BNB transaction; all are nonce-0 EOAs with 0 BNB and no FUNDED BY value.",
   "5 singleton operator clusters under the first-BNB-funder heuristic.",
-  "No unexplained transfers."
+  "No unexplained transfers.",
+  "0xd16446a568f46bca1504422062f23767d8fa58d9 has 22 zero-value inbound transactions from 0xf5cc05828B4Ef88455CaB9bb8771a991565cEA5D; all have 0 BNB value and do not create a first funder."
  ]
 }
